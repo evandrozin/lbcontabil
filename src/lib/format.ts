@@ -31,3 +31,17 @@ export function paraCentavos(texto: string): number {
 export function plural(n: number, singular: string, plural: string): string {
   return n === 1 ? singular : plural;
 }
+
+/**
+ * Formata uma data ISO (YYYY-MM-DD) como dd/mm/aaaa.
+ *
+ * NÃO use `new Date(iso).toLocaleDateString()` para isto: a string sem
+ * horário é interpretada como meia-noite UTC, e em UTC−3 a data volta um
+ * dia. Num prazo legal — "a opção vai até 30/09" virando 29/09 — isso faz
+ * o cliente perder a janela.
+ */
+export function dataIsoParaBr(iso: string): string {
+  const [ano, mes, dia] = iso.split("-");
+  if (!ano || !mes || !dia) return iso;
+  return `${dia}/${mes}/${ano}`;
+}

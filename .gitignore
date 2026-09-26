@@ -6,3 +6,10 @@ out
 *.tsbuildinfo
 next-env.d.ts
 .vercel
+
+# Documentos internos: a ata de reunião contém transcrição literal com
+# nomes de clientes e conversa pessoal. Não versionar enquanto não for
+# revisada e anonimizada. Se quiser versionar só o HTML do projeto,
+# troque por uma regra mais específica.
+_Doc/
+_img/

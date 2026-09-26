@@ -65,6 +65,7 @@ export function linkWhatsApp(mensagem: string): string {
 }
 
 export const NAVEGACAO = [
+  { href: "/calculadora-reforma", rotulo: "Calculadora da reforma" },
   { href: "/planos", rotulo: "Planos e preços" },
   { href: "/simulador", rotulo: "Simulador" },
   { href: "/segmentos/produtor-rural", rotulo: "Produtor rural" },

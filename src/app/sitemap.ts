@@ -13,6 +13,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/`, priority: 1, changeFrequency: "weekly" },
     { url: `${SITE.url}/planos`, priority: 0.9, changeFrequency: "weekly" },
     { url: `${SITE.url}/simulador`, priority: 0.9, changeFrequency: "monthly" },
+    {
+      url: `${SITE.url}/calculadora-reforma`,
+      priority: 0.9,
+      changeFrequency: "monthly",
+    },
     { url: `${SITE.url}/abrir-empresa`, priority: 0.8, changeFrequency: "monthly" },
     { url: `${SITE.url}/trocar-de-contador`, priority: 0.8, changeFrequency: "monthly" },
     { url: `${SITE.url}/termos`, priority: 0.2, changeFrequency: "yearly" },
