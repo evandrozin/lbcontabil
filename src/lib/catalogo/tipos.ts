@@ -1,5 +1,5 @@
 /**
- * Modelo de domínio do catálogo comercial da LB Contábil.
+ * Modelo de domínio do catálogo comercial da Agrotábil MS.
  *
  * Convenção: todo valor monetário é armazenado em CENTAVOS (inteiro).
  * Nunca use float para dinheiro — arredondamento de ponto flutuante em

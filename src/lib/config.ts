@@ -1,11 +1,11 @@
 /** Domínio usado quando nada foi configurado no ambiente. */
-const URL_PADRAO = "https://lbcontabil.com.br";
+const URL_PADRAO = "https://agrotabilms.com.br";
 
 /**
  * Normaliza uma URL vinda de variável de ambiente.
  *
  * Aceita os erros previsíveis de quem preenche painel de deploy: espaço
- * sobrando, barra no fim e host sem protocolo ("lbcontabil.vercel.app").
+ * sobrando, barra no fim e host sem protocolo ("agrotabilms.vercel.app").
  * Devolve `null` para qualquer coisa que não vire URL válida.
  */
 function normalizarUrl(valor: string | undefined): string | null {
@@ -43,21 +43,24 @@ export function resolverUrlDoSite(): string {
  * Resolução CFC para divulgação de serviços contábeis.
  */
 export const SITE = {
-  nome: "LB Contábil",
-  slogan: "Contabilidade online para todo o Brasil",
+  nome: "Agrotábil MS",
+  /** Assinatura que acompanha a logo. */
+  tagline: "Contabilidade, Consultoria, Auditoria Contábil",
+  slogan: "Contabilidade e consultoria para o agro e para empresas de todos os portes",
   descricao:
-    "Contabilidade online com preço transparente para MEI, Simples Nacional, Lucro Presumido, comércio e produtor rural. Atendimento humano por WhatsApp em todo o Brasil.",
+    "Contabilidade, consultoria e auditoria com preço transparente para produtor rural, MEI, Simples Nacional, Lucro Presumido e comércio. Atendimento humano por WhatsApp.",
   url: resolverUrlDoSite(),
 
   // TODO: substituir pelos dados reais antes de ir ao ar.
-  razaoSocial: "LB Contábil Serviços Contábeis Ltda.",
+  razaoSocial: "Agrotábil MS Contabilidade e Consultoria Ltda.",
   cnpj: "00.000.000/0001-00",
-  crc: "CRC-XX 000000/O-0",
-  email: "contato@lbcontabil.com.br",
+  crc: "CRC-MS 000000/O-0",
+  email: "contato@agrotabilms.com.br",
   /** Somente dígitos, com DDI — formato exigido pelo link wa.me. */
   whatsapp: "5500000000000",
   whatsappExibicao: "(00) 00000-0000",
-  endereco: "Cidade — UF",
+  /** TODO: confirmar a praça. Inferido do "MS" da marca. */
+  endereco: "Campo Grande — MS",
 } as const;
 
 export function linkWhatsApp(mensagem: string): string {

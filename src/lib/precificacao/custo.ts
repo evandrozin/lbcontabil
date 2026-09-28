@@ -17,7 +17,7 @@ export interface ParametrosCusto {
   custoSoftwarePorCnpjCentavos: number;
   /** Custo marginal de captura/importação de cada nota fiscal. */
   custoPorNotaImportadaCentavos: number;
-  /** Carga tributária da própria LB Contábil sobre a receita de serviço. */
+  /** Carga tributária da própria Agrotábil MS sobre a receita de serviço. */
   aliquotaImpostos: number;
   /** Taxa do gateway de pagamento (cartão recorrente é o pior caso). */
   taxaCheckout: number;

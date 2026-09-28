@@ -16,14 +16,14 @@ import { Container } from "@/components/ui/primitivos";
 export const metadata: Metadata = {
   title: "Termos de uso e contrato de prestação de serviços",
   description:
-    "Condições gerais de contratação dos serviços contábeis da LB Contábil: escopo, limites de plano, cobrança recorrente, reajuste e cancelamento.",
+    "Condições gerais de contratação dos serviços contábeis da Agrotábil MS: escopo, limites de plano, cobrança recorrente, reajuste e cancelamento.",
 };
 
 const CLAUSULAS: { titulo: string; itens: string[] }[] = [
   {
     titulo: "1. Objeto",
     itens: [
-      "A LB Contábil presta serviços de escrituração contábil e fiscal, apuração de tributos, folha de pagamento e cumprimento de obrigações acessórias, conforme o plano contratado.",
+      "A Agrotábil MS presta serviços de escrituração contábil e fiscal, apuração de tributos, folha de pagamento e cumprimento de obrigações acessórias, conforme o plano contratado.",
       "O escopo de cada plano é o descrito na página de planos no momento da contratação, que passa a integrar este contrato.",
       "Serviços não listados no plano são executados mediante contratação avulsa, com preço informado e aprovado previamente pelo contratante.",
     ],
@@ -41,7 +41,7 @@ const CLAUSULAS: { titulo: string; itens: string[] }[] = [
     itens: [
       "Enviar documentos, extratos e informações em até 5 dias úteis do encerramento de cada mês.",
       "Manter certificado digital válido e conceder as procurações eletrônicas necessárias.",
-      "Responder pela veracidade das informações prestadas. A LB Contábil não responde por tributo apurado a menor em razão de documento não informado.",
+      "Responder pela veracidade das informações prestadas. A Agrotábil MS não responde por tributo apurado a menor em razão de documento não informado.",
     ],
   },
   {
@@ -60,15 +60,15 @@ const CLAUSULAS: { titulo: string; itens: string[] }[] = [
     itens: [
       "No plano mensal, o contrato é por prazo indeterminado e pode ser encerrado por qualquer das partes mediante aviso de 30 dias.",
       "No plano anual, há compromisso de 12 meses com cobrança mensal descontada. O encerramento antecipado implica a devolução do desconto concedido no período já usufruído e dos honorários de abertura, se tiverem sido dispensados.",
-      "Encerrado o contrato, a LB Contábil entrega toda a documentação contábil e fiscal da empresa em até 30 dias, conforme dever profissional.",
+      "Encerrado o contrato, a Agrotábil MS entrega toda a documentação contábil e fiscal da empresa em até 30 dias, conforme dever profissional.",
     ],
   },
   {
     titulo: "6. Responsabilidade profissional",
     itens: [
       "Os serviços são executados por profissional registrado no Conselho Regional de Contabilidade, sob as normas do CFC.",
-      "A responsabilidade da LB Contábil limita-se aos atos praticados no período de vigência do contrato e às informações efetivamente recebidas do contratante.",
-      "Multas decorrentes de atraso exclusivamente imputável à LB Contábil são por ela suportadas.",
+      "A responsabilidade da Agrotábil MS limita-se aos atos praticados no período de vigência do contrato e às informações efetivamente recebidas do contratante.",
+      "Multas decorrentes de atraso exclusivamente imputável à Agrotábil MS são por ela suportadas.",
     ],
   },
   {
@@ -81,7 +81,7 @@ const CLAUSULAS: { titulo: string; itens: string[] }[] = [
   {
     titulo: "8. Foro",
     itens: [
-      "Fica eleito o foro da comarca da sede da LB Contábil para dirimir controvérsias, salvo direito do consumidor de optar pelo foro de seu domicílio.",
+      "Fica eleito o foro da comarca da sede da Agrotábil MS para dirimir controvérsias, salvo direito do consumidor de optar pelo foro de seu domicílio.",
     ],
   },
 ];

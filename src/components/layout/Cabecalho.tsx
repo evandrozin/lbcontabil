@@ -1,17 +1,12 @@
 import Link from "next/link";
 import { NAVEGACAO, SITE, linkWhatsApp } from "@/lib/config";
 import { BotaoLink, Container } from "@/components/ui/primitivos";
+import { Logo } from "@/components/layout/Logo";
 
-function Logo() {
+function LogoLink() {
   return (
-    <Link href="/" className="flex items-center gap-2 font-bold">
-      <span
-        aria-hidden="true"
-        className="grid size-9 place-items-center rounded-lg bg-marca-600 text-sm font-black text-white dark:bg-marca-500 dark:text-marca-950"
-      >
-        LB
-      </span>
-      <span className="text-lg tracking-tight">{SITE.nome}</span>
+    <Link href="/" aria-label={`${SITE.nome} — página inicial`}>
+      <Logo />
     </Link>
   );
 }
@@ -20,7 +15,7 @@ export function Cabecalho() {
   return (
     <header className="sticky top-0 z-50 border-b border-borda bg-fundo/85 backdrop-blur">
       <Container className="flex h-16 items-center justify-between gap-4">
-        <Logo />
+        <LogoLink />
 
         <nav aria-label="Principal" className="hidden items-center gap-6 lg:flex">
           {NAVEGACAO.map((item) => (

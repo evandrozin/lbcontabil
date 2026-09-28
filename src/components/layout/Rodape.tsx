@@ -2,6 +2,7 @@ import Link from "next/link";
 import { SITE, linkWhatsApp } from "@/lib/config";
 import { LISTA_SEGMENTOS } from "@/lib/catalogo/segmentos";
 import { Container } from "@/components/ui/primitivos";
+import { Logo } from "@/components/layout/Logo";
 
 export function Rodape() {
   const ano = new Date().getFullYear();
@@ -11,8 +12,8 @@ export function Rodape() {
       <Container className="py-12">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           <div>
-            <p className="text-lg font-bold">{SITE.nome}</p>
-            <p className="mt-2 text-sm text-texto-suave">{SITE.slogan}</p>
+            <Logo comTagline />
+            <p className="mt-3 text-sm text-texto-suave">{SITE.slogan}</p>
             <p className="mt-4 text-sm text-texto-suave">
               {SITE.razaoSocial}
               <br />
@@ -64,7 +65,7 @@ export function Rodape() {
             <ul className="mt-3 space-y-2 text-sm text-texto-suave">
               <li>
                 <a
-                  href={linkWhatsApp("Olá! Vim pelo site da LB Contábil.")}
+                  href={linkWhatsApp("Olá! Vim pelo site da Agrotábil MS.")}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition-colors hover:text-texto"

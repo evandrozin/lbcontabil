@@ -80,7 +80,7 @@ export class GatewayAsaas implements GatewayPagamento {
         "Content-Type": "application/json",
         access_token: this.chaveApi,
         // O Asaas pede identificação do integrador para suporte e rate limit.
-        "User-Agent": "LBContabil/1.0",
+        "User-Agent": "AgrotabilMS/1.0",
       },
       body: init?.body ? JSON.stringify(init.body) : undefined,
       cache: "no-store",

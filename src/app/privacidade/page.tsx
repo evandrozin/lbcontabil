@@ -14,7 +14,7 @@ import { Container } from "@/components/ui/primitivos";
 export const metadata: Metadata = {
   title: "Política de Privacidade (LGPD)",
   description:
-    "Como a LB Contábil coleta, usa, armazena e protege os dados pessoais de clientes e visitantes, conforme a Lei 13.709/2018.",
+    "Como a Agrotábil MS coleta, usa, armazena e protege os dados pessoais de clientes e visitantes, conforme a Lei 13.709/2018.",
 };
 
 const SECOES: { titulo: string; paragrafos: string[]; lista?: string[] }[] = [

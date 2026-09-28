@@ -180,7 +180,7 @@ export default function Home() {
       {/* Diferenciais */}
       <Secao>
         <TituloSecao
-          sobretitulo="Por que a LB"
+          sobretitulo="Por que a Agrotábil"
           titulo="O que muda quando a contabilidade é feita direito"
         />
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">

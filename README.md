@@ -1,4 +1,4 @@
-# LB Contábil — plataforma de vendas
+# Agrotábil MS — plataforma de vendas
 
 Contabilidade online para todo o Brasil: vitrine por segmento, simulador de
 plano, checkout com cobrança recorrente e onboarding de documentos.
