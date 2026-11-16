@@ -13,3 +13,8 @@ next-env.d.ts
 # troque por uma regra mais específica.
 _Doc/
 _img/
+
+# Planilhas de cliente soltas na raiz — dado fiscal de terceiro,
+# não versionar. Mova para _Doc/ se precisar guardar localmente.
+*.xlsx
+*.xls
